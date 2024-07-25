@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int Day{ 3 };
+int Day{ 7 };
 
 int main() {
 	switch (Day) {
@@ -11,8 +11,8 @@ int main() {
 	case 2:
 		cout << "Tuesday";
 		break;
-	case 3:
+	case 6:
+	case 7:
 		cout << "Wednesday";
-		break;
 	}
 }
