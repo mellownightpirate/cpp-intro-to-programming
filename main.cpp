@@ -1,12 +1,16 @@
 #include <iostream>
 using namespace std;
 
-int CalculateLevel() {
-	return 5;
-};
+int Health{ 150 };
+
+void TakeDamage(int Damage) {
+	cout << "Inflicting " << Damage << " Damage";
+	Health -= Damage;
+	cout << " - Health: " << Health << '\n';
+}
 
 int main() {
-	cout << "Level: " << CalculateLevel();
-	cout << "\nHealth: " << CalculateLevel() * 5;
-	return 5;
+	TakeDamage(20);
+	TakeDamage(50);
+	TakeDamage(70);
 }
