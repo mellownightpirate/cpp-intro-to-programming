@@ -6,6 +6,6 @@ int CalculateLevel() {
 };
 
 int main() {
-	int Level{ CalculateLevel() };
-	cout << "Level: " << Level;
+	cout << "Level: " << CalculateLevel();
+	cout << "\nHealth: " << CalculateLevel() * 5;
 }
