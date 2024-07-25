@@ -9,7 +9,7 @@ This project contains the exercises and code examples I'm working on as I learn 
 - **Purpose:** To better assist in developing Open Database Connectivity (ODBC) drivers for our prospects and customers.
 
 ### Progress
-- **Current Lesson:** 8
+- **Current Lesson:** 10
 - **Topics Covered:** Basics of C++, Syntax, Variables, Data Types, and more.
 
 ### Goals
