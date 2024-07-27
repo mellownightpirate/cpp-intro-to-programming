@@ -1,2 +1,3 @@
 ﻿  main.cpp
-  hello_world.vcxproj -> C:\Users\Amin.Hasan\source\repos\hello_world\x64\Debug\hello_world.exe
+C:\Users\Amin.Hasan\source\repos\hello_world\main.cpp(7,2): error C2562: 'Log': 'void' function returning a value
+C:\Users\Amin.Hasan\source\repos\hello_world\main.cpp(11,8): error C2440: 'initializing': cannot convert from 'void' to 'int'

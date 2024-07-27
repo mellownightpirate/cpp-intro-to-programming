@@ -1,19 +1,13 @@
 #include <iostream>
 using namespace std;
 
-int Health{ 150 };
-
-void TakeDamage(
-	int Damage, bool isMagical = false
-) {
-	cout << "Inflicting " << Damage << " Damage";
-	// Magical damage is doubled
-	Health -= isMagical ? Damage * 2 : Damage;
-	cout << " - Health: " << Health << '\n';
+void Log() {
+	int x{ 42 };
+	cout << "x is " << x;
+	return x;
 }
 
 int main() {
-	TakeDamage(10, true);
-	TakeDamage(50);
-	TakeDamage(70);
+	int x = Log();
+	cout << "\nit's definitely " << x;
 }
