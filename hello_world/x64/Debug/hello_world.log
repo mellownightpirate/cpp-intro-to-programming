@@ -1,2 +1,2 @@
 ﻿  main.cpp
-  hello_world.vcxproj -> C:\Users\Amin.Hasan\source\repos\hello_world\x64\Debug\hello_world.exe
+C:\Users\Amin.Hasan\source\repos\hello_world\main.cpp(6,89): error C3861: 'to_string': identifier not found
